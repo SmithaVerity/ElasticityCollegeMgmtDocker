@@ -26,9 +26,9 @@ Steps:
   
 # Create image and push it to Docker hub
 ```
-  sudo docker commit collegemgmtapp yourdockerid/collegemgmtapp:latest
+  sudo docker commit collegemgmtapp << your dockerid >>/collegemgmtapp:latest
   sudo docker login
-  sudo docker push yourdockerid/collegemgmtapp:latest
+  sudo docker push << your dockerid >>/collegemgmtapp:latest
 ```
 # Stop and remove the image
 ```
@@ -38,7 +38,7 @@ Steps:
   
 # Test image and remove it
 ```
-  sudo docker run --name collegemgmtdocker -p 80:80  -d yourdockerid/collegemgmtapp:latest
+  sudo docker run --name collegemgmtdocker -p 80:80  -d << your dockerid >>/collegemgmtapp:latest
   sudo docker stop collegemgmtdocker
   sudo docker rm collegemgmtdocker
 ```
