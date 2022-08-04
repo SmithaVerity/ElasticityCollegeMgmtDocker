@@ -1,4 +1,4 @@
-# ScalabilityTesting with CollegeMgmt app in Docker Swarm
+# Elasticity Testing with CollegeMgmt app in Docker Swarm
 
 Steps:
 1. Create an ubuntu instance
