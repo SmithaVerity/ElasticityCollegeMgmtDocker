@@ -10,8 +10,8 @@ Steps:
 
 # Install the Codeignitor Docker image
 ```
-  git clone https://github.com/SmithaVerity/ScalabilityTesting_CollegeMgmtDocker.git
-  cd ScalabilityTesting_CollegeMgmtDocker/
+  git clone https://github.com/SmithaVerity/ElasticityCollegeMgmtDocker.git
+  cd ElasticityCollegeMgmtDocker/
   sh installDocker.sh
 ```
 
