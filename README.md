@@ -21,14 +21,14 @@ Steps:
   git clone https://github.com/SmithaVerity/CollegeMgmt_RDS.git
   exit
 ```
-  - Check the app by accessing http://<<ipaddress>>/CollegeMgmt_RDS
+  - Check the app by accessing http://youripaddress/CollegeMgmt_RDS
   
   
 # Create image and push it to Docker hub
 ```
-  sudo docker commit collegemgmtapp <<your docker id>>/collegemgmtapp:latest
+  sudo docker commit collegemgmtapp yourdockerid/collegemgmtapp:latest
   sudo docker login
-  sudo docker push <<your docker id>>/collegemgmtapp:latest
+  sudo docker push yourdockerid/collegemgmtapp:latest
 ```
 # Stop and remove the image
 ```
@@ -38,7 +38,7 @@ Steps:
   
 # Test image and remove it
 ```
-  sudo docker run --name collegemgmtdocker -p 80:80  -d smithajp/collegemgmtapp:latest
+  sudo docker run --name collegemgmtdocker -p 80:80  -d yourdockerid/collegemgmtapp:latest
   sudo docker stop collegemgmtdocker
   sudo docker rm collegemgmtdocker
 ```
