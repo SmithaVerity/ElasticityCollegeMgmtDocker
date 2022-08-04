@@ -7,6 +7,7 @@ Steps:
 4. Run the following commands
 ```
   git clone https://github.com/SmithaVerity/CollegeMgmt_RDS.git
+  cd CollegeMgmt_RDS/
   sh deployApp.sh
 ```
 
