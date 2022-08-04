@@ -21,7 +21,7 @@ Steps:
   git clone https://github.com/SmithaVerity/CollegeMgmt_RDS.git
   exit
 ```
-  - Check the app by accessing http://youripaddress/CollegeMgmt_RDS
+  - Check the app by accessing http://<< your ipaddress >>/CollegeMgmt_RDS
   
   
 # Create image and push it to Docker hub
